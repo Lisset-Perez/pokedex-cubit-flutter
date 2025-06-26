@@ -13,10 +13,7 @@ class PokemonListScreen extends StatelessWidget {
         title: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'assets/images/pokebolla.png', // asegúrate de tenerlo en assets
-              height: 60,
-            ),
+            Image.asset('assets/images/pokebolla.png', height: 60),
             const SizedBox(width: 8),
             const Text('Pokédex', style: TextStyle(fontSize: 26)),
           ],
